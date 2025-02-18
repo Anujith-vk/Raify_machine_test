@@ -8,7 +8,6 @@ The project consists of the following parts:
 - **MongoDB**: For storing appointment data.
 - **Jest**: For running tests to ensure the application is working correctly.
 - **Supertest**: For testing the API endpoints.
-- 
 ## Setup and Installation
 
 ### Prerequisites
