@@ -18,5 +18,32 @@ The project consists of the following parts:
 
 ```bash
 git clone https://github.com/Anujith-vk/Raify_machine_test.git
-cd appointment-booking-api
+cd Raify_machine_test
+```
+## install Dependencies
 
+```bash
+npm install
+```
+
+## Create a .env file
+create a .enve file and inside it define your port and database link
+```bash
+PORT='your port number'
+DB='Your database link'
+```
+## Test
+for api testing sample data is used
+    name: "ibrahim",
+    phone_number: "8987787686",
+    date: '2025-01-1',
+    time: '02:00 PM'
+to test run
+```bash
+npm test
+```
+## Run the project
+run the project by using command
+```bash
+npm start
+```
