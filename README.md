@@ -4,10 +4,25 @@ This project is an **Appointment Booking API** built using **Node.js**, **Expres
 
 ## Tech Stack
 The project consists of the following parts:
-- **Express.js**: For routing and handling HTTP requests.
-- **MongoDB**: For storing appointment data.
+### Frontend
+- **React.js** - JavaScript library for building user interfaces
+- **HTML, CSS, JavaScript** - Standard technologies for frontend development
+- **react-hot-toast** - used for notifications
+### Backend
+- **Node.js** - JavaScript runtime used for backend development
+- **Express.js** - Web framework for Node.js to handle routing
 - **Jest**: For running tests to ensure the application is working correctly.
 - **Supertest**: For testing the API endpoints.
+### Database
+- **MongoDB** - NoSQL database used to store data
+- **Mongoose** - ODM (Object Data Modeling) library for MongoDB
+
+### Other Libraries/Tools
+
+- **Axios** - Promise-based HTTP client for making API requests
+- **dotenv** - Loads environment variables from a .env file into process.env
+
+
 ## Setup and Installation
 
 ### Prerequisites
